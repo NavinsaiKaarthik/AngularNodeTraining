@@ -1,0 +1,29 @@
+<h2>Sign Up</h2>
+
+<div *ngIf="!isSubmitted">
+  <form #signupForm="ngForm" (ngSubmit)="onSubmit(signupForm)">
+    <div>
+      <label for="username">Username:</label>
+      <input type="text" id="username" name="username" ngModel />
+    </div>
+    <div>
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" ngModel />
+    </div>
+    <div>
+      <label for="password">Password:</label>
+      <input type="password" id="password" name="password" ngModel />
+    </div>
+    <button type="submit">Sign Up</button>
+  </form>
+</div>
+
+<div *ngIf="!isSubmitted">
+    <button (click)="goBack()">Back</button>
+  </div>
+
+<!-- Show success message and Go Back button if submitted -->
+<div *ngIf="isSubmitted">
+  <h3>Sign Up Successful!</h3>
+  <button (click)="goBack()">Go Back</button>
+</div>

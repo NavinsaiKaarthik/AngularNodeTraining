@@ -1,0 +1,65 @@
+/* Center the form and content */
+div {
+    text-align: center;
+    margin-top: 30px; /* Reduced margin */
+  }
+  
+  /* Style the form container */
+  form {
+    display: inline-block;
+    text-align: left;
+    background-color: #f9f9f9;
+    padding: 15px; /* Reduced padding */
+    border-radius: 5px; /* Reduced border radius */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    width: 300px; /* Set a fixed width */
+  }
+  
+  /* Style the labels */
+  label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 3px; /* Reduced margin */
+    color: #333;
+    font-size: 14px; /* Reduced font size */
+  }
+  
+  /* Style the input fields */
+  input {
+    width: 100%;
+    padding: 8px; /* Reduced padding */
+    margin-bottom: 10px; /* Reduced margin */
+    border: 1px solid #ccc;
+    border-radius: 3px; /* Reduced border radius */
+    font-size: 14px; /* Reduced font size */
+  }
+  
+  /* Style the buttons */
+  button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 8px 15px; /* Reduced padding */
+    margin: 5px; /* Reduced margin */
+    font-size: 14px; /* Reduced font size */
+    border-radius: 3px; /* Reduced border radius */
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  /* Hover effect for buttons */
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Style the success message */
+  h3.success {
+    color: #28a745; /* Green for success */
+    font-size: 16px; /* Reduced font size */
+  }
+  
+  /* Style the error message */
+  h3.error {
+    color: #dc3545; /* Red for failure */
+    font-size: 16px; /* Reduced font size */
+  }
